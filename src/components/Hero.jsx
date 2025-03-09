@@ -43,7 +43,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="hero-image"
         >
-          <img src="public\White-Simple-Woman-Photo-Sale-or-Business-Womens-Beauty-Facebook-Cover.jpg" alt="IT Team" />
+          <img src="src/assets/White-Simple-Woman-Photo-Sale-or-Business-Womens-Beauty-Facebook-Cover.jpg" alt="IT Team" />
         </motion.div>
       </div>
     </section>
