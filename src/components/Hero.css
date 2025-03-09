@@ -27,7 +27,9 @@
   color: var(--secondary-color);
   margin-bottom: 20px;
 }
-
+svg#Layer_1 {
+  height: 25rem;
+}
 .hero-description {
   font-size: 1.25rem;
   color: var(--dark-gray);

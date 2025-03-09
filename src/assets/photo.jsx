@@ -17,8 +17,8 @@ const Photo = () => {
         <rect
           x="281.597"
           y="409.6"
-          width="102.4"
-          height="89.6"
+          width="85.4"
+          height="9.6"
           style={{ fill: "#919CB0" }}
         />
         <path
