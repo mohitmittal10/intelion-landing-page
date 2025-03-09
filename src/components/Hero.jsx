@@ -2,6 +2,7 @@
 import React from 'react';
 import './Hero.css';
 import { motion } from 'framer-motion';
+import Photo from '../assets/photo';
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="hero-image"
         >
-          <img src="\assets\a.jpg" alt="IT Team" />
+          <Photo />
         </motion.div>
       </div>
     </section>
