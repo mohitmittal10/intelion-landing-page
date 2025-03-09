@@ -15,21 +15,11 @@ const Stats = () => {
     <section className="stats-section">
       <div className="container">
         <div className="stats-header">
-          <div className="stats-review">
-            <span>REVIEWED ON</span>
-            <h3>Clutch</h3>
-            <div className="stars">
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-              <i className="fas fa-star"></i>
-            </div>
-            <span>2K+ REVIEWS</span>
-          </div>
+          
         </div>
       
         <div className="stats-container">
+          
           {statsData.map((stat, index) => (
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
@@ -39,6 +29,7 @@ const Stats = () => {
               key={stat.id} 
               className="stat-item"
             >
+              
               <div className="stat-number">
                 <span className="number">{stat.number}</span>
                 <span className="suffix">{stat.suffix}</span>

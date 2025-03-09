@@ -16,37 +16,7 @@ const Footer = () => {
             <p>Simplifying IT for a complex world.</p>
           </div>
           
-          <div className="footer-links">
-            <div className="footer-link-group">
-              <h4>Company</h4>
-              <ul>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#careers">Careers</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </div>
-            
-            <div className="footer-link-group">
-              <h4>Services</h4>
-              <ul>
-                <li><a href="#managed-services">Managed Services</a></li>
-                <li><a href="#consulting">IT Consulting</a></li>
-                <li><a href="#security">Cyber Security</a></li>
-                <li><a href="#development">Development</a></li>
-              </ul>
-            </div>
-            
-            <div className="footer-link-group">
-              <h4>Legal</h4>
-              <ul>
-                <li><a href="#privacy">Privacy Policy</a></li>
-                <li><a href="#terms">Terms of Service</a></li>
-                <li><a href="#cookies">Cookie Policy</a></li>
-                <li><a href="#gdpr">GDPR Compliance</a></li>
-              </ul>
-            </div>
-          </div>
+          
           
           <div className="footer-social">
             <h4>Connect With Us</h4>

@@ -58,34 +58,7 @@ const Newsletter = () => {
               </ul>
             </div>
             
-            <div className="brand-logo">
-              <motion.div 
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ duration: 0.8 }}
-                viewport={{ once: true }}
-                className="logo-wrapper"
-              >
-                <svg width="120" height="60" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M10 30C10 15.67 21.67 4 36 4C50.33 4 62 15.67 62 30C62 44.33 50.33 56 36 56C21.67 56 10 44.33 10 30Z" fill="white"/>
-                  <path d="M28 22H44V38H28V22Z" fill="#003366"/>
-                  <path d="M79 20H110V40H79V20Z" fill="white"/>
-                  <path d="M83 30L88 25H106L101 30L88 43L83 38V30Z" fill="white"/>
-                  <path d="M89 25L83 31V37L88 42L100 30L95 25H89Z" fill="white"/>
-                </svg>
-              </motion.div>
-              
-              <motion.a 
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: 0.2 }}
-                viewport={{ once: true }}
-                href="#schedule" 
-                className="schedule-btn"
-              >
-                Schedule Consultation
-              </motion.a>
-            </div>
+            
           </div>
         </div>
         
