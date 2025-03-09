@@ -39,6 +39,11 @@ svg#Layer_1 {
 .hero-buttons {
   display: flex;
   gap: 15px;
+  margin-bottom: 20px;
+}
+
+.hero-video-button {
+  margin-top: 10px;
 }
 
 .consultation-button {
@@ -114,6 +119,11 @@ svg#Layer_1 {
   }
 
   .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-video-button {
+    display: flex;
     justify-content: center;
   }
 

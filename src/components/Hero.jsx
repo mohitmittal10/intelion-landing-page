@@ -3,6 +3,7 @@ import React from 'react';
 import './Hero.css';
 import { motion } from 'framer-motion';
 import Photo from '../assets/photo';
+import IntroVideo from './IntroVideo';
 
 const Hero = () => {
   return (
@@ -35,6 +36,15 @@ const Hero = () => {
           >
             <a href="#consultation" className="consultation-button">Schedule a Free Consultation</a>
             <a href="#services" className="services-button">Services</a>
+          </motion.div>
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.6 }}
+            className="hero-video-button"
+          >
+            <IntroVideo />
           </motion.div>
         </div>
         
