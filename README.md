@@ -1,61 +1,64 @@
-# Welcome to your Lovable project
+# React Project with Vite
 
-## Project info
+This project is a React application bootstrapped with [Vite](https://vitejs.dev/).
 
-**URL**: https://lovable.dev/projects/7c1c738a-5ee6-45f3-b6f2-463548ac84b8
+## 🚀 Getting Started
 
-## How can I edit this code?
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-There are several ways of editing your application.
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
+   ```
 
-**Use Lovable**
+2. Install dependencies:
+   ```sh
+   npm install
+   # or
+   yarn install
+   ```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7c1c738a-5ee6-45f3-b6f2-463548ac84b8) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Development
+To start the development server, run:
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
+# or
+yarn dev
 ```
 
-**Edit a file directly in GitHub**
+Then open [http://localhost:5173](http://localhost:5173) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build for Production
+To create a production build:
+```sh
+npm run build
+# or
+yarn build
+```
 
-**Use GitHub Codespaces**
+### Preview Production Build
+To preview the production build:
+```sh
+npm run preview
+# or
+yarn preview
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- jScript
+## 🛠️ Technologies Used
 - React
-- shadcn-ui
+- Vite
+- JavaScript
+- CSS
+
+
+
+## ✨ Acknowledgments
+- [Vite Documentation](https://vitejs.dev/)
+- [React Documentation](https://react.dev/)
 
